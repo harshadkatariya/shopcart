@@ -36,7 +36,7 @@ const AuthPage = () => {
         <div className='nav'>
           <a href='#product'>Product</a>
           <a href='#Login'>Login</a>
-          <img src='cart' alt='PNG'></img>
+          <img className='img2' src={require('./cart.png')} />
         </div>
       </div>
     );
